@@ -21,6 +21,7 @@ public class Usuario {
     
     @Column(length = 100, nullable = false)
     private String senha;
+    public String getNomeUsuario;
 
     public int getIdUsuario() {
         return idUsuario;
